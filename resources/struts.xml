@@ -10,5 +10,15 @@
             <result name="FAILURE">/negative.html</result>
         </action>
 
+        <action name="register" class="Authentication" method="register">
+            <result name="SUCCESS">/profile.jsp</result>
+            <result name="ERROR">/negative.html</result>
+        </action>
+
+        <action name="logoff" class="Authentication" method="logoff">
+            <result name="SUCCESS">/index.jsp</result>
+            <result name="ERROR">/negative.html</result>
+        </action>
+
     </package>
 </struts>

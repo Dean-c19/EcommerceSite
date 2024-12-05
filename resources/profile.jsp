@@ -10,7 +10,13 @@
 <body>
 
 <h1>Profile Page, view bids and an item</h1>
-Welcome back <s:property value="username" />! <br/>
+Logged in as <s:property value="username" />! <br/>
+
+<s:form action="logoff">
+  <s:submit value="Logoff"/>
+</s:form>
+
+
 
 
 </body>

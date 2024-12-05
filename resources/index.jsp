@@ -13,7 +13,8 @@ Login or register below
 <s:form action="login">
     <s:textfield name="username" label="Username"/>
     <s:textfield name="password" label="Password"/>
-    <s:submit/>
+    <s:submit value="Login" action="login"/>
+    <s:submit value="Register" action="register"/>
 </s:form>
 
 </body>
