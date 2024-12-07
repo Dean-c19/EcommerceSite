@@ -9,9 +9,8 @@
 </head>
 <body>
 
-<h1>Viewing Users and Items</h1>
+<h1>Place a Bid, Add Item for sale or make a bid</h1>
 
 
 </body>
 </html>
-
