@@ -20,5 +20,16 @@
             <result name="ERROR">/negative.html</result>
         </action>
 
+        <action name="getProductForSale" class="Api" method="getProductForSale">
+            <result name="SUCCESS">/profile.jsp</result>
+            <result name="FAILURE">/negative.html</result>
+        </action>
+
+        <action name="placeBid" class="Api" method="placeBid">
+            <result name="SUCCESS">/profile.jsp</result>
+            <result name="FAILURE">/negative.html</result>
+        </action>
+
+
     </package>
 </struts>
