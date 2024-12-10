@@ -153,6 +153,7 @@ public class Api {
     public void setPassword(String password) {
         this.password = password;
     }
+    // view other profile but also acts as view my profile wehn you login or register
     public String viewOtherProfile() throws SQLException {
         Connection connection = DriverManager.getConnection(
                 "jdbc:mysql://localhost:3306/ecommerce?serverTimezone=UTC", "root", "rootroot1");
@@ -181,7 +182,7 @@ public class Api {
             return "FAILURE";
         }
     }
-// arrah list to store all users
+// array list to store allUsers
     private List<User> allUsers = new ArrayList<>();
 
     // getter for allUsers

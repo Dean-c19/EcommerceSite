@@ -89,20 +89,6 @@ Logged in as <s:property value="username" />! <br/>
   <s:submit value="View All Items" />
 </s:form>
 
-<s:form action="getProductForSale">
-  <s:textfield name="productName" label="Product Name" />
-  <s:textfield name="price" label="Price" />
-  <s:textfield name="sellerName" label="Seller Name" />
-  <s:submit value="Add Product" />
-</s:form>
-
-<s:form action="placeBid">
-  <s:textfield name="productName" label="Product Name" />
-  <s:textfield name="biddersName" label="Your Name" />
-  <s:textfield name="bidAmount" label="Bid Amount" />
-  <s:textfield name="sellerName" label="Seller Name" />
-  <s:submit value="Place Bid" />
-</s:form>
 
 
 
