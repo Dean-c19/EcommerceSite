@@ -29,6 +29,19 @@
             <result name="SUCCESS">/profile.jsp</result>
             <result name="FAILURE">/negative.html</result>
         </action>
+        <action name="viewOtherProfile" class="Api" method="viewOtherProfile">
+            <result name="SUCCESS">/profile.jsp</result>
+            <result name="FAILURE">/negative.html</result>
+        </action>
+        <action name="viewAllUsers" class="Api" method="viewAllUsers">
+            <result name="SUCCESS">/profile.jsp</result>
+            <result name="FAILURE">/negative.jsp</result>
+        </action>
+        <action name="viewAllItems" class="Api" method="viewAllItems">
+            <result name="SUCCESS">/profile.jsp</result>
+            <result name="FAILURE">/negative.html</result>
+        </action>
+
 
 
     </package>
